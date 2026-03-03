@@ -184,9 +184,9 @@ ol {
 }
 
 .search-form__textfield {
-  border-top: 1px solid #fff;
+  border-top: 1px solid currentColor;
   border-right: none;
-  border-bottom: 1px solid #fff;
+  border-bottom: 1px solid currentColor;
   border-left: none;
   color: currentColor;
   font-family: "Fira Sans Condensed", sans-serif;
@@ -198,7 +198,7 @@ ol {
 }
 
 .search-form__textfield::placeholder {
-  color: (255 255 255 / 0.7);
+  color: rgb(255 255 255 / 0.7);
 }
 
 .search-form__textfield:active {
@@ -236,7 +236,7 @@ ol {
   flex-direction: column;
   gap: 30px;
   height: 298px;
-  overflow-y: scroll;
+  overflow-y: auto;
 }
 
 .content__list {
@@ -286,7 +286,6 @@ ol {
   flex-grow: 1;
   gap: 6px;
   inline-size: 196px;
-  block-size: 103px;
 }
 
 .content__video-card-title {
@@ -303,6 +302,7 @@ ol {
   display: -webkit-box;
   overflow: hidden;
   line-height: 90%;
+  -webkit-line-clamp: 4;
   line-clamp: 4;
   -webkit-box-orient: vertical;
 }
