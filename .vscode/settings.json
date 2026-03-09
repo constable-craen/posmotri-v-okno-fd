@@ -1,5 +1,7 @@
 {
-    "liveServer.settings.https": {
-        "enable": true
+    "liveServer.settings.ChromeDebuggingAttachment": false,
+    "liveServer.settings.AdvanceCustomBrowserCmdLine": "",
+    "liveServer.settings.headers": {
+        
     }
 }
